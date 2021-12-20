@@ -43,7 +43,7 @@ public class SpawnController : MonoBehaviour
         return locomotive;
     }
     
-    public Station SpawnStation(List<Station> stations)     // MONEY TIME!
+    public Station SpawnStation(List<Station> stations)     // Here is where the action starts
     {
         Vector3[] corners = new Vector3[4];
         _stationsSpawnArea.GetWorldCorners(corners);
@@ -56,7 +56,7 @@ public class SpawnController : MonoBehaviour
         Vector3 position = new Vector3();
         Vector3[] positions = new Vector3[99];  // NEW!!! Changed () to [] twice and inserted 10
         positions[0] = new Vector3();     // Zero
-        //positions[] = new Vector3(,);  // 
+        // positions[] = new Vector3(,);  // 
         // positions[1] = new Vector3(-13,4);  // LEFT-UPPERMOST
         positions[01] = new Vector3(-13,2);  // Jane
         positions[02] = new Vector3(-12,2);  // Runnymede
