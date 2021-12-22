@@ -115,7 +115,7 @@ public class SpawnController : MonoBehaviour
             i++;
             correctPosition = true;
             // OLD CODE:   position = new Vector3(Random.Range(min.x, max.x), Random.Range(min.y, max.y));
-            position = positions[i];     //  NEW CODE!!!
+            position = positions[i];     //  New code logic here
 
             position.x = Mathf.RoundToInt(position.x / delta) * delta;
             position.y = Mathf.RoundToInt(position.y / delta) * delta;
