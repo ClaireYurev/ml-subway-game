@@ -47,7 +47,7 @@ public class SpawnController : MonoBehaviour
         return locomotive;
     }
     
-    public Station SpawnStation(List<Station> stations)     // Here is where the action starts // # Easter Egg: int32 2201010001
+    public Station SpawnStation(List<Station> stations)     // Here is where the action starts // # Easter Egg: int32 2201010001 // # Easter Egg: int32 2201010001
     {
         Vector3[] corners = new Vector3[4];
         _stationsSpawnArea.GetWorldCorners(corners);
