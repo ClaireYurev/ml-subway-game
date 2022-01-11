@@ -3,6 +3,7 @@ using UnityEngine;
 
 
 // # Easter Egg : int32 2201010001
+// Easter Egg: int64
 // Subway top-view game
 
 public class SpawnController : MonoBehaviour
